@@ -98,6 +98,11 @@ public class Jframe_pedido extends javax.swing.JFrame {
         jLabel4.setText("Total");
 
         jButton_aceptar.setText("Aceptar");
+        jButton_aceptar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton_aceptarActionPerformed(evt);
+            }
+        });
 
         jButton_limpiar.setText("Limpiar");
 
@@ -220,6 +225,10 @@ public class Jframe_pedido extends javax.swing.JFrame {
     private void jCheckBox_porotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox_porotoActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox_porotoActionPerformed
+
+    private void jButton_aceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_aceptarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton_aceptarActionPerformed
 
     /**
      * @param args the command line arguments
